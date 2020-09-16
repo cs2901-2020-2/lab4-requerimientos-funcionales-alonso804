@@ -11,28 +11,31 @@ public class DNASequencer {
         logger.info("Starting sequencer...");
     }
 
-    public String join(String result, String temp) {
+    public String join(StringBuilder result, String temp) {
+        String common = "";
         for(int indexTemp = temp.length(); indexTemp > 0; --indexTemp) {
-            String common = temp.substring(0, indexTemp);
+            common = temp.substring(0, indexTemp);
 
-            if (result.endsWith(common)) {
-                result += temp.substring(indexTemp);
+            if (result.toString().endsWith(common)) {
+                result.append(temp.substring(indexTemp));
                 break;
             }
         }
 
-        return result;
+        return result.toString();
     }
 
     public String calculate(List<String> part){
-        String result = part.get(0);
+        StringBuilder result = new StringBuilder();
+        result.append(part.get(0));
         String temp = "";
+        String answer = "";
 
         for(int i = 1; i < part.size(); ++i) {
             temp = part.get(i);
-            result = join(result, temp);
+            answer = join(result, temp);
         }
 
-        return result;
+        return answer;
     }
 }
