@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
     </list>
@@ -138,6 +135,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="241" y="61" width="934" height="670" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600271243321">
+      <screen x="67" y="27" width="1293" height="741" />
+    </state>
+    <state x="241" y="61" width="934" height="670" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1293.741@67.27.1293.741" timestamp="1600271243321" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600268966752">
+      <screen x="67" y="27" width="1293" height="741" />
+    </state>
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1293.741@67.27.1293.741" timestamp="1600268966752" />
   </component>
   <component name="masterDetails">
     <states>

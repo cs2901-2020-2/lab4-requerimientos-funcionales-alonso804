@@ -2,7 +2,6 @@ package cs.lab;
 
 import java.util.List;
 import java.util.logging.Logger;
-import java.util.*;
 
 public class DNASequencer {
 
@@ -12,35 +11,28 @@ public class DNASequencer {
         logger.info("Starting sequencer...");
     }
 
-    public String calculate(List<String> part){
-        String result = part.get(0);
-        String temp = "";
-        int addIndex = 0;
+    public String join(String result, String temp) {
+        for(int indexTemp = temp.length(); indexTemp > 0; --indexTemp) {
+            String common = temp.substring(0, indexTemp);
 
-        for(int i = 1; i < part.size(); ++i) {
-            temp = part.get(i);
-
-            for(int j = 0; j < result.length(); ++j) {
-                if(result.charAt(j) == temp.charAt(addIndex)) {
-                    ++addIndex;
-                    continue;
-                } else {
-                    addIndex = 0;
-                }
-            }
-
-            for(; addIndex < temp.length(); ++addIndex) {
-                result += temp.charAt(addIndex);
+            if (result.endsWith(common)) {
+                result += temp.substring(indexTemp);
+                break;
             }
         }
-        //logger.info(result);
+
         return result;
     }
 
-    /*
-    public static void main(string[] args) {
+    public String calculate(List<String> part){
+        String result = part.get(0);
+        String temp = "";
 
+        for(int i = 1; i < part.size(); ++i) {
+            temp = part.get(i);
+            result = join(result, temp);
+        }
+
+        return result;
     }
-    */
-
 }
