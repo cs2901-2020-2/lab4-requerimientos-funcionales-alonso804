@@ -29,6 +29,10 @@ public class DNASequencerTest {
         generic(2);
     }
 
+    public void testCase4() throws Exception {
+        generic(3);
+    }
+
     private void generic(int i) throws Exception {
         List<String> input = readInput(i);
         String output = readOutput(i);

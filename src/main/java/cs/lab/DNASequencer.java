@@ -13,42 +13,46 @@ public class DNASequencer {
 
     public String join(StringBuilder result, String temp) {
         String common = "";
+        Boolean joined = false;
 
         for(int indexTemp = temp.length(); indexTemp > 0; --indexTemp) {
             common = temp.substring(0, indexTemp);
 
             if (result.toString().endsWith(common)) {
+                joined = true;
                 result.append(temp.substring(indexTemp));
                 break;
             }
         }
 
+        if (Boolean.FALSE.equals(joined)){
+            result.append(temp);
+        }
+
         return result.toString();
     }
 
-    public String calculate(List<String> parts) throws Exception {
+    public String calculate(List<String> parts) throws MaxSubsequenceAmountException, SubSequenceLengthException {
         if(parts.size() > 160000) {
             throw new MaxSubsequenceAmountException("Too many subseqs");
         }
 
-        if(parts.get(0).length() > 200) {
-            throw new SubSequenceLengthException("Subseqs is too long");
-        }
-
         StringBuilder result = new StringBuilder();
-        result.append(parts.get(0));
         String temp = "";
         String answer = "";
 
-
-        for(int i = 1; i < parts.size(); ++i) {
-            temp = parts.get(i);
-
-            if(temp.length() > 200) {
+        for(int i = 0; i < parts.size(); ++i) {
+            if(parts.get(i).length() > 200) {
                 throw new SubSequenceLengthException("Subseqs is too long");
             }
 
-            answer = join(result, temp);
+            if(i == 0) {
+                result.append((parts.get(0)));
+            } else {
+                temp = parts.get(i);
+                answer = join(result, temp);
+            }
+
         }
 
         return answer;
