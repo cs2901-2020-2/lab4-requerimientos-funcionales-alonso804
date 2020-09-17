@@ -23,9 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs/lab/MaxSubsequenceAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs/lab/SubSequenceLengthException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1_output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +70,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -88,6 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DNASequencerTest.testCase2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs.lab" />
+      <option name="MAIN_CLASS_NAME" value="cs.lab.DNASequencerTest" />
+      <option name="METHOD_NAME" value="testCase2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -106,6 +137,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DNASequencerTest.testCase2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,16 +171,62 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="241" y="61" width="934" height="670" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600271243321">
-      <screen x="67" y="27" width="1293" height="741" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600351964444">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3213.1053@67.27.3213.1053" timestamp="1600351964444" />
+    <state x="665" y="354" width="657" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600351556018">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state x="665" y="354" width="657" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.3213.1053@67.27.3213.1053" timestamp="1600351556018" />
+    <state width="1807" height="344" key="GridCell.Tab.0.bottom" timestamp="1600353075340">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.0.bottom/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075340" />
+    <state width="1807" height="344" key="GridCell.Tab.0.center" timestamp="1600353075339">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.0.center/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075339" />
+    <state width="1807" height="344" key="GridCell.Tab.0.left" timestamp="1600353075339">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.0.left/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075339" />
+    <state width="1807" height="344" key="GridCell.Tab.0.right" timestamp="1600353075339">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.0.right/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075339" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1600353075341">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075341" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1600353075341">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075341" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1600353075341">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075341" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1600353075341">
+      <screen x="67" y="27" width="3213" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.3213.1053@67.27.3213.1053" timestamp="1600353075341" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1600349963049">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1600349963049" />
+    <state x="67" y="75" width="1853" height="953" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600350993192">
+      <screen x="67" y="27" width="3213" height="1053" />
     </state>
     <state x="241" y="61" width="934" height="670" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1293.741@67.27.1293.741" timestamp="1600271243321" />
-    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600268966752">
+    <state x="67" y="75" width="1853" height="953" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3213.1053@67.27.3213.1053" timestamp="1600350993192" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600273229005">
       <screen x="67" y="27" width="1293" height="741" />
     </state>
-    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1293.741@67.27.1293.741" timestamp="1600268966752" />
+    <state x="376" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1293.741@67.27.1293.741" timestamp="1600273229005" />
   </component>
   <component name="masterDetails">
     <states>
